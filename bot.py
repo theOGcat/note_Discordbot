@@ -7,6 +7,7 @@ from discord.ext import commands
 load_dotenv()
 TOKEN = os.getenv("CLIENT_TOKEN")
 client = commands.Bot(command_prefix='$')
+# Test
 
 
 @client.event
